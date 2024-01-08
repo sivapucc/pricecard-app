@@ -1,0 +1,64 @@
+.App {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+  background-color: blue;
+}
+
+.Box {
+  border: 2px solid white;
+  width: 280px;
+  height: 450px;
+  border-radius: 16px;
+  background-color: white;
+}
+.hline {
+  width: 240px;
+  border-top: 1px solid rgb(209, 206, 206);
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+}
+main {
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 15px;
+}
+#not {
+  color: rgb(197, 196, 196);
+}
+#tick::before {
+  content: "✓  ";
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+#not::before {
+  content: "×  ";
+}
+
+.btn {
+  width: 240px;
+  height: 50px;
+  margin: 0px 10px 10px 18px;
+  border-radius: 100px;
+}
+
+.Box:hover {
+  margin-top: -20px;
+}
